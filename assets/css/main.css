@@ -3606,23 +3606,56 @@ input, select, textarea {
 		}
 
 i.fa-html5 {
-	padding-top: 45px;
+	padding-top: 40px;
 	color: #e34f26;
 }
 
-/* @media (min-width: 1024px) and (max-width: 1280px) {
+i.fa-css3-alt {
+	padding-top: 40px;
+	color: #2092ec;
+}
 
-	i.fa-html5 {
-		padding-top: 60px;
-		color: #e34f26;
-	}
-			
-} */
+i.fa-js-square {
+	padding-top: 38px;
+	color: #eec724;
+}
+
+i.fa-database {
+	padding-top: 38px;
+	color: #00678f;
+}
+
+i.fa-envira {
+	padding-top: 38px;
+	color: #10aa50;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
 	i.fa-html5 {
 		padding-top: 30px;
+		font-size: 57px;
+	}
+
+	i.fa-css3-alt {
+		padding-top: 30px;
+		font-size: 57px;
+	}
+
+	i.fa-js-square {
+		padding-top: 25px;
+		font-size: 55px;
+	}
+
+	i.fa-database {
+		padding-top: 26px;
+		font-size: 55px;
+	}
+
+	i.fa-envira {
+		padding-top: 26px;
+		font-size: 55px;
 	}
 
 }
@@ -3634,4 +3667,47 @@ i.fa-html5 {
 		font-size: 35px;
 	}
 	
+	i.fa-css3-alt {
+		padding-top: 25px;
+		font-size: 35px;
+	}
+
+	i.fa-js-square {
+		padding-top: 25px;
+		font-size: 33px;
+	}
+
+	i.fa-database {
+		padding-top: 25px;
+		font-size: 33px;
+	}
+
+	i.fa-envira {
+		padding-top: 25px;
+		font-size: 34px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+
+	i.fa-html5 {
+		padding-top: 22px;
+	}
+	
+	i.fa-css3-alt {
+		padding-top: 22px;
+	}
+
+	i.fa-js-square {
+		padding-top: 20px;
+	}
+
+	i.fa-database {
+		padding-top: 20px;
+	}
+
+	i.fa-envira {
+		padding-top: 20px;
+	}
+
 }
