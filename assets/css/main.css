@@ -3647,6 +3647,16 @@ i.fa-etsy {
 	color: black;
 }
 
+/* #JS {
+	margin-right: 0px;
+} */
+
+.skillBlock {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Ipads or other smaller computer screens */
 @media (min-width: 768px) and (max-width: 1024px) {
 
 	i.fa-html5 {
@@ -3663,6 +3673,10 @@ i.fa-etsy {
 		padding-top: 25px;
 		font-size: 55px;
 	}
+
+	/* #JS {
+		margin-left: 55px;
+	} */
 
 	i.fa-database {
 		padding-top: 26px;
@@ -3688,8 +3702,11 @@ i.fa-etsy {
 		padding-top: 26px;
 		font-size: 55px;
 	}
+
 }
 
+
+/* Iphone 6 or higher screens*/
 @media (min-width: 320px) and (max-width: 480px) {
   
 	i.fa-html5 {
@@ -3731,8 +3748,12 @@ i.fa-etsy {
 		padding-top: 25px;
 		font-size: 35px;
 	}
+	/* .skillBlock {
+		display: inline-block;
+	} */
 }
 
+/* Iphone 5 or lower including android phones*/
 @media (min-width: 320px) and (max-width: 360px) {
 
 	i.fa-html5 {
